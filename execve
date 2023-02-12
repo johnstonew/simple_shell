@@ -6,7 +6,7 @@
  * @data: data
  * Return: 1 on success.
  */
-int exec_cve(data_shell *datash)
+int exec_cve(data_shell *data)
 {
 	int (*builtin)(data_shell *data);
 
